@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3E481972B858C0000C1B0B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E481962B858C0000C1B0B9 /* AppDelegate.swift */; };
+		B3E481992B858C0000C1B0B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E481982B858C0000C1B0B9 /* SceneDelegate.swift */; };
+		B3E4819B2B858C0000C1B0B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E4819A2B858C0000C1B0B9 /* ViewController.swift */; };
+		B3E4819E2B858C0000C1B0B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E4819C2B858C0000C1B0B9 /* Main.storyboard */; };
+		B3E481A02B858C0300C1B0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E4819F2B858C0300C1B0B9 /* Assets.xcassets */; };
+		B3E481A32B858C0300C1B0B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E481A12B858C0300C1B0B9 /* LaunchScreen.storyboard */; };
+		B3E481AE2B858C0300C1B0B9 /* Dice_SochiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E481AD2B858C0300C1B0B9 /* Dice_SochiTests.swift */; };
+		B3E481B82B858C0300C1B0B9 /* Dice_SochiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E481B72B858C0300C1B0B9 /* Dice_SochiUITests.swift */; };
+		B3E481BA2B858C0300C1B0B9 /* Dice_SochiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E481B92B858C0300C1B0B9 /* Dice_SochiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3E481AA2B858C0300C1B0B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3E4818B2B858C0000C1B0B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3E481922B858C0000C1B0B9;
+			remoteInfo = "Dice Sochi";
+		};
+		B3E481B42B858C0300C1B0B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3E4818B2B858C0000C1B0B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3E481922B858C0000C1B0B9;
+			remoteInfo = "Dice Sochi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3E481932B858C0000C1B0B9 /* Dice Sochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Sochi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E481962B858C0000C1B0B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3E481982B858C0000C1B0B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3E4819A2B858C0000C1B0B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3E4819D2B858C0000C1B0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3E4819F2B858C0300C1B0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3E481A22B858C0300C1B0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3E481A42B858C0300C1B0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3E481A92B858C0300C1B0B9 /* Dice SochiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice SochiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E481AD2B858C0300C1B0B9 /* Dice_SochiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_SochiTests.swift; sourceTree = "<group>"; };
+		B3E481B32B858C0300C1B0B9 /* Dice SochiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice SochiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E481B72B858C0300C1B0B9 /* Dice_SochiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_SochiUITests.swift; sourceTree = "<group>"; };
+		B3E481B92B858C0300C1B0B9 /* Dice_SochiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_SochiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3E481902B858C0000C1B0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E481A62B858C0300C1B0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E481B02B858C0300C1B0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3E4818A2B858C0000C1B0B9 = {
+			isa = PBXGroup;
+			children = (
+				B3E481952B858C0000C1B0B9 /* Dice Sochi */,
+				B3E481AC2B858C0300C1B0B9 /* Dice SochiTests */,
+				B3E481B62B858C0300C1B0B9 /* Dice SochiUITests */,
+				B3E481942B858C0000C1B0B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3E481942B858C0000C1B0B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E481932B858C0000C1B0B9 /* Dice Sochi.app */,
+				B3E481A92B858C0300C1B0B9 /* Dice SochiTests.xctest */,
+				B3E481B32B858C0300C1B0B9 /* Dice SochiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E481952B858C0000C1B0B9 /* Dice Sochi */ = {
+			isa = PBXGroup;
+			children = (
+				B3E481962B858C0000C1B0B9 /* AppDelegate.swift */,
+				B3E481982B858C0000C1B0B9 /* SceneDelegate.swift */,
+				B3E4819A2B858C0000C1B0B9 /* ViewController.swift */,
+				B3E4819C2B858C0000C1B0B9 /* Main.storyboard */,
+				B3E4819F2B858C0300C1B0B9 /* Assets.xcassets */,
+				B3E481A12B858C0300C1B0B9 /* LaunchScreen.storyboard */,
+				B3E481A42B858C0300C1B0B9 /* Info.plist */,
+			);
+			path = "Dice Sochi";
+			sourceTree = "<group>";
+		};
+		B3E481AC2B858C0300C1B0B9 /* Dice SochiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3E481AD2B858C0300C1B0B9 /* Dice_SochiTests.swift */,
+			);
+			path = "Dice SochiTests";
+			sourceTree = "<group>";
+		};
+		B3E481B62B858C0300C1B0B9 /* Dice SochiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3E481B72B858C0300C1B0B9 /* Dice_SochiUITests.swift */,
+				B3E481B92B858C0300C1B0B9 /* Dice_SochiUITestsLaunchTests.swift */,
+			);
+			path = "Dice SochiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3E481922B858C0000C1B0B9 /* Dice Sochi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E481BD2B858C0300C1B0B9 /* Build configuration list for PBXNativeTarget "Dice Sochi" */;
+			buildPhases = (
+				B3E4818F2B858C0000C1B0B9 /* Sources */,
+				B3E481902B858C0000C1B0B9 /* Frameworks */,
+				B3E481912B858C0000C1B0B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dice Sochi";
+			productName = "Dice Sochi";
+			productReference = B3E481932B858C0000C1B0B9 /* Dice Sochi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3E481A82B858C0300C1B0B9 /* Dice SochiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E481C02B858C0300C1B0B9 /* Build configuration list for PBXNativeTarget "Dice SochiTests" */;
+			buildPhases = (
+				B3E481A52B858C0300C1B0B9 /* Sources */,
+				B3E481A62B858C0300C1B0B9 /* Frameworks */,
+				B3E481A72B858C0300C1B0B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3E481AB2B858C0300C1B0B9 /* PBXTargetDependency */,
+			);
+			name = "Dice SochiTests";
+			productName = "Dice SochiTests";
+			productReference = B3E481A92B858C0300C1B0B9 /* Dice SochiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3E481B22B858C0300C1B0B9 /* Dice SochiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E481C32B858C0300C1B0B9 /* Build configuration list for PBXNativeTarget "Dice SochiUITests" */;
+			buildPhases = (
+				B3E481AF2B858C0300C1B0B9 /* Sources */,
+				B3E481B02B858C0300C1B0B9 /* Frameworks */,
+				B3E481B12B858C0300C1B0B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3E481B52B858C0300C1B0B9 /* PBXTargetDependency */,
+			);
+			name = "Dice SochiUITests";
+			productName = "Dice SochiUITests";
+			productReference = B3E481B32B858C0300C1B0B9 /* Dice SochiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3E4818B2B858C0000C1B0B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B3E481922B858C0000C1B0B9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B3E481A82B858C0300C1B0B9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B3E481922B858C0000C1B0B9;
+					};
+					B3E481B22B858C0300C1B0B9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B3E481922B858C0000C1B0B9;
+					};
+				};
+			};
+			buildConfigurationList = B3E4818E2B858C0000C1B0B9 /* Build configuration list for PBXProject "Dice Sochi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3E4818A2B858C0000C1B0B9;
+			productRefGroup = B3E481942B858C0000C1B0B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3E481922B858C0000C1B0B9 /* Dice Sochi */,
+				B3E481A82B858C0300C1B0B9 /* Dice SochiTests */,
+				B3E481B22B858C0300C1B0B9 /* Dice SochiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3E481912B858C0000C1B0B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E481A32B858C0300C1B0B9 /* LaunchScreen.storyboard in Resources */,
+				B3E481A02B858C0300C1B0B9 /* Assets.xcassets in Resources */,
+				B3E4819E2B858C0000C1B0B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E481A72B858C0300C1B0B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E481B12B858C0300C1B0B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3E4818F2B858C0000C1B0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E4819B2B858C0000C1B0B9 /* ViewController.swift in Sources */,
+				B3E481972B858C0000C1B0B9 /* AppDelegate.swift in Sources */,
+				B3E481992B858C0000C1B0B9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E481A52B858C0300C1B0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E481AE2B858C0300C1B0B9 /* Dice_SochiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E481AF2B858C0300C1B0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E481BA2B858C0300C1B0B9 /* Dice_SochiUITestsLaunchTests.swift in Sources */,
+				B3E481B82B858C0300C1B0B9 /* Dice_SochiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3E481AB2B858C0300C1B0B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3E481922B858C0000C1B0B9 /* Dice Sochi */;
+			targetProxy = B3E481AA2B858C0300C1B0B9 /* PBXContainerItemProxy */;
+		};
+		B3E481B52B858C0300C1B0B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3E481922B858C0000C1B0B9 /* Dice Sochi */;
+			targetProxy = B3E481B42B858C0300C1B0B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3E4819C2B858C0000C1B0B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3E4819D2B858C0000C1B0B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3E481A12B858C0300C1B0B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3E481A22B858C0300C1B0B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3E481BB2B858C0300C1B0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3E481BC2B858C0300C1B0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3E481BE2B858C0300C1B0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWJ8YXF6SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice Sochi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanbushkovsky.Dice-Sochi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3E481BF2B858C0300C1B0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWJ8YXF6SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice Sochi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanbushkovsky.Dice-Sochi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3E481C12B858C0300C1B0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWJ8YXF6SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanbushkovsky.Dice-SochiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice Sochi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dice Sochi";
+			};
+			name = Debug;
+		};
+		B3E481C22B858C0300C1B0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWJ8YXF6SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanbushkovsky.Dice-SochiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice Sochi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dice Sochi";
+			};
+			name = Release;
+		};
+		B3E481C42B858C0300C1B0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWJ8YXF6SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanbushkovsky.Dice-SochiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dice Sochi";
+			};
+			name = Debug;
+		};
+		B3E481C52B858C0300C1B0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWJ8YXF6SU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanbushkovsky.Dice-SochiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dice Sochi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3E4818E2B858C0000C1B0B9 /* Build configuration list for PBXProject "Dice Sochi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E481BB2B858C0300C1B0B9 /* Debug */,
+				B3E481BC2B858C0300C1B0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E481BD2B858C0300C1B0B9 /* Build configuration list for PBXNativeTarget "Dice Sochi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E481BE2B858C0300C1B0B9 /* Debug */,
+				B3E481BF2B858C0300C1B0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E481C02B858C0300C1B0B9 /* Build configuration list for PBXNativeTarget "Dice SochiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E481C12B858C0300C1B0B9 /* Debug */,
+				B3E481C22B858C0300C1B0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E481C32B858C0300C1B0B9 /* Build configuration list for PBXNativeTarget "Dice SochiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E481C42B858C0300C1B0B9 /* Debug */,
+				B3E481C52B858C0300C1B0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3E4818B2B858C0000C1B0B9 /* Project object */;
+}
